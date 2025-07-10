@@ -10,7 +10,7 @@ function createBot() {
 
   bot.on('spawn', () => {
     console.log('🤖 Bot সার্ভারে যুক্ত হয়েছে!');
-    bot.chat('আমি AFK বট, সার্ভার ২৪/৭ চালু রাখব!');
+    bot.chat('/register creativeafkbot');
   });
 
   bot.on('end', () => {
